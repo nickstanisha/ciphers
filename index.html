@@ -156,7 +156,7 @@
 		$("#decode").click(function() {
 			var selected = $("#cipher-options").val();
 			var key = $("#cipher_key").val();
-			if (key == "") {
+			if (key == "" && key_req[selected] != "") {
 				$("#error_msg").text("A valid cipher key must be provided!");
 			} else if (!valid_key(selected, key)) {
 				if (key_req[selected] == 'numeric') {
