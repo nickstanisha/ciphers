@@ -6,7 +6,7 @@
 </head>
 <body>
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/caesar.js"></script>
@@ -44,25 +44,25 @@
       </select> 
        </div>
        <div class="col-sm-3">
-         <input type="text" id="cipher_key" style="width: 120px; float: right; margin-top: 12px" placeholder="Cipher key"></input>
+         <input type="text" id="cipher_key" placeholder="Cipher key"></input>
        </div>
 
      </div>
      <div class="row">
     <div class="col-md-6">
       <div class="row" style="margin-right: 15px;">
-        <textarea rows="10" overflow="scroll" id="decoded_box" style="width: 100%; margin-left: 15px;" placeholder="Unencoded message"></textarea>
+        <textarea rows="10" overflow="scroll" id="decoded_box" placeholder="Unencoded message"></textarea>
       </div>
       <div class="row">
-        <button type="button" class="btn btn-primary-outline" id="encode" style="margin-bottom: 5px; margin-left: 15px;">Encode</button>
+        <button type="button" class="btn btn-primary-outline" id="encode">Encode</button>
       </div>
     </div>
     <div class="col-md-6">
       <div class="row" style="margin-right: 15px">
-        <textarea rows="10" overflow="scroll" id="encoded_box" style="width: 100%; margin-left: 15px;" placeholder="Encoded message"></textarea>
+        <textarea rows="10" overflow="scroll" id="encoded_box" placeholder="Encoded message"></textarea>
       </div>
       <div class="row">
-        <button type="button" class="btn btn-primary-outline" id="decode" style="margin-bottom: 5px; margin-left: 15px;">Decode</button>
+        <button type="button" class="btn btn-primary-outline" id="decode">Decode</button>
       </div>
     </div>
   </div>
