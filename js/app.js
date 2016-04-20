@@ -26,7 +26,7 @@ var description = {'caesar': "One of the simplest and earliest known ciphers, th
                               even without knowledge of the key, the original message can be determined by \
                               examining the frequency of the letters that appear in the message. The Caesar cipher was \
                               named after Julius Ceasar who encrypted military messages using 3 as his key.",
-              'vigenere' : 'A Vigen&egrave;re cipher is like a bunch of Caesar ciphers put together. Unlike \
+                'vigenere' : 'A Vigen&egrave;re cipher is like a bunch of Caesar ciphers put together. Unlike \
                               the Caesar cipher, a Vigen&egrave;re cipher\'s keyword is a passphrase. Each letter \
                               in the message is translated according to the position in the alphabet of the \
                               corresponding letter in the passphrase (looping back to the beginning if the message \
@@ -85,7 +85,7 @@ function key_highlighter() {
  * @param {string} selected - Name of the cipher selected
  * @param {string, int} key - Key provided by user
  */
- function check_key(key, selected) {
+function check_key(key, selected) {
   if (key == "" && key_req[selected] != "") {
     $("#error_msg").text("A valid cipher key must be provided!");
     return false;
