@@ -124,11 +124,11 @@ $(document).ready(function(){
     if ($(this).attr('id') == 'encode') {
       var source = "#decoded_box";
       var dest = "#encoded_box";
-      var direction = 'encode'
+      var direction = 'encode';
     } else {
       var source = "#encoded_box";
       var dest = "#decoded_box";
-      var direction = 'decode'
+      var direction = 'decode';
     }
     if (check_key(key, selected)) {
       $("#error_msg").text("");
