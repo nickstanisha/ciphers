@@ -82,8 +82,8 @@ function key_highlighter() {
 /**
  * Checks if key is valid. Returns false and triggers error message
  * on page if incorrect. Else, returns true 
- * @param {string} selected - Name of the cipher selected
  * @param {string, int} key - Key provided by user
+ * @param {string} selected - Name of the cipher selected
  */
 function check_key(key, selected) {
   if (key == "" && key_req[selected] != "") {
