@@ -44,7 +44,7 @@ var description = {'caesar': "One of the simplest and earliest known ciphers, th
                               letter in the alphabet, the letters are first translated to numbers representing \
                               their position in the alphabet, and those numbers are incremented by the key. \
                               Provenzano used the key "4" to translate every "A" in his messages to the number \
-                              "4", "B" to "5" etc. Because Caesar ciphers are \
+                              "4", "B" to "5" etc. Partly because Caesar ciphers are \
                               <a href="https://en.wikipedia.org/wiki/Caesar_cipher#Breaking_the_cipher">easy to break</a> \
                               by frequency analysis or plain old guessing, Bernardo Provenzano was captured in Sicily \
                               in 2006.',
@@ -64,7 +64,7 @@ var description = {'caesar': "One of the simplest and earliest known ciphers, th
                               the Declaration of Independence beginning with that letter (i.e. the letter "e" could be replaced with \
                               the index of any word in the Declaration beginning with the letter "e"). Because there are no words \
                               in the Declaration of Independence beginning with X, Y or Z, Beale chose word 811 to represent "y" and \
-                              word 1005 to represeent "x". Keeping with Beale\'s spirit, I have chosen work 1015 for "z".'};
+                              word 1005 to represeent "x". I have arbitrarily chosen work 1015 for "z".'};
 
 /* Highlights the key box in light red if not applicable */
 function key_highlighter() {
