@@ -64,7 +64,7 @@ var description = {'caesar': "One of the simplest and earliest known ciphers, th
                               the Declaration of Independence beginning with that letter (i.e. the letter "e" could be replaced with \
                               the index of any word in the Declaration beginning with the letter "e"). Because there are no words \
                               in the Declaration of Independence beginning with X, Y or Z, Beale chose word 811 to represent "y" and \
-                              word 1005 to represeent "x". I have arbitrarily chosen work 1015 for "z".'};
+                              word 1005 to represeent "x". I have arbitrarily chosen word 1015 for "z".'};
 
 /* Highlights the key box in light red if not applicable */
 function key_highlighter() {
